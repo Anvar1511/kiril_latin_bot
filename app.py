@@ -12,6 +12,6 @@
 #     executor.start_polling(dp, on_startup=on_startup)
 from aiogram import Bot
 
-bot = Bot(token="")
+bot = Bot(token="1039659888:AAGAzdArAUlCQ5l68DKeE2N89Yt8FCNcjhI")
 
 bo
