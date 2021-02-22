@@ -1,4 +1,4 @@
-  # from aiogram import executor, Bot
+# from aiogram import executor, Bot
 # from loader import dp
 # import middlewares, filters, handlers
 # from utils.notify_admins import on_startup_notify
@@ -17,13 +17,14 @@ bot = Bot(token="1039659888:AAGAzdArAUlCQ5l68DKeE2N89Yt8FCNcjhI")
 dp = Dispatcher(bot)
 
 
-
 @dp.message_handler()
 async def get_message(message: types.Message)
     chat_id = nessage.chat.id
     text = 'salom, men test botman'
 
-    awaid bot.Send_message(chat_id=, text=text)
+    awaid
+    bot.Send_message(chat_id=, text=text)
+
 
 bot.get_updates()
 executor.start_polling(dp)
